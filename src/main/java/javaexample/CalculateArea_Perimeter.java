@@ -2,7 +2,7 @@ package javaexample;
 
 import java.util.Scanner;
 
-public class MethodBasics {
+public class CalculateArea_Perimeter {
 
     public static void main ( String [] args)
     {
@@ -12,6 +12,7 @@ public class MethodBasics {
         length = input.nextInt();
         System.out.print("Enter the width :");
         width = input.nextInt();
+
         int area = rectangleArea (length, width);
         int per = rectanglePerimeter(length, width);
 
